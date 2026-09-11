@@ -2,4 +2,23 @@
 name = "fastapiproject"
 version = "0.1.0"
 requires-python = ">=3.14"
-dependencies = []
+dependencies = [
+    "aiohttp>=3.14.3",
+    "booktype>=1.5",
+    "fastapi>=0.141.1",
+    "google-api-python-client>=2.200.0",
+    "google-api-python-client-stubs>=1.40.0",
+    "google-auth-oauthlib>=1.4.1",
+    "google-cloud-pubsub>=2.40.0",
+    "openai==3.13.0",
+    "pandas>=3.0.5",
+    "pandas-stubs>=3.0.5.260730",
+    "protobuf>=7.36.1",
+    "pydantic-settings>=2.15.0",
+    "pytest>=9.1.1",
+    "pytest-asyncio>=1.4.0",
+    "redis>=5.0,<6.0",
+    "scikit-learn==1.9.1",
+    "uvicorn>=0.52.4",
+    "xgboost>=3.4.1",
+]

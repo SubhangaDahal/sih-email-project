@@ -1,0 +1,6 @@
+.env
+credentials.json
+token.json
+phishing_email.csv
+engines/__pycache__/
+*.pyc
