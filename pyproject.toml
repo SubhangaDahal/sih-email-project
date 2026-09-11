@@ -19,6 +19,7 @@ dependencies = [
     "pytest-asyncio>=1.4.0",
     "redis>=5.0,<6.0",
     "scikit-learn==1.9.1",
+    "tqdm>=4.70.1",
     "uvicorn>=0.52.4",
     "xgboost>=3.4.1",
 ]

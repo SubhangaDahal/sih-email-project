@@ -8,7 +8,7 @@ from google.oauth2.credentials import Credentials
 
 from google.cloud import pubsub_v1
 from googleapiclient.discovery import build
-from engines import run_auth_checks, ioc_engine
+from engines import run_auth_checks, ioc_engine, run_text_ai
 
 from setup import SCOPES
 
@@ -78,14 +78,6 @@ def get_gmail_credentials():
 # 1. DETECTION ENGINES
 # ======================================================================
 
-async def run_text_ai(body: str) -> dict:
-    """
-    Text / social-engineering detector.
-    """
-    return {
-        "score": 0.85,
-        "reason": "High urgency detected",
-    }
 
 
 async def run_geo_engine(headers: list) -> dict:
