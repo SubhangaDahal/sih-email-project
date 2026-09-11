@@ -4,5 +4,8 @@ token.json
 phishing_email.csv
 engines/__pycache__/
 *.pyc
-dataset/phishing_email_features.csv
-dataset/*.csv
+dataset/
+!dataset/__init__.py
+!dataset/dataset_builder.py
+!models/info.txt
+models/
