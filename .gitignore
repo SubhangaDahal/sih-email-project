@@ -8,4 +8,4 @@ dataset/
 !dataset/__init__.py
 !dataset/dataset_builder.py
 !models/info.txt
-models/
+models/*
